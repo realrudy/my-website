@@ -1,41 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 body {
   background-color: #222;
   padding: 50px 150px;
-  font-family: 'Source Code Pro', monospace;
+  color:white;
+  font-family: "Source Code Pro", monospace;
   overflow-x: hidden;
 }
 h1 {
   color: #fff;
-font-family: 'Source Code Pro', monospace;  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
   font-size: 200px;
   margin: 0px auto;
 }
 h2 {
   color: #ffffff;
-font-family: 'Source Code Pro', monospace;  text-align: center;
-  font-size: 60px;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  font-size: 45px;
   margin: 0px;
 }
- pre {
-    background-color: #D1D1D0;
-    overflow: auto;
-    font-family: 'Monaco', monospace;
-    padding: 0 1em;
-  }
+h3 {
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  font-size: 35px;
+  float: left;
+  
+}
+p{color:white;float:left; margin:-1;}
+pre {
+  background-color: #d1d1d0;
+  overflow: auto;
+  font-family: "Monaco", monospace;
+  padding: 0 1em;
+}
 
+.big {
+  color: white;
+  border-radius: 20pt;
+  padding 1pt;
+  width: 73%;
+  background-color: #23272a;
 
+  font-family: Monaco, monospace;
+}
+.section {
+  color: white;
+  border-radius: 2pt;
+  padding 1pt;
+  width: 73%;
+  background-color: #23272a;
 
-
-
-.big{
-      color:white;
-    border-radius: 20pt;
-    padding 1pt;
-  width:73%;
-    background-color: #23272A;
-
-   font-family: Monaco, monospace;
+  font-family: Monaco, monospace;
 }
