@@ -32,8 +32,9 @@ font-family: 'Source Code Pro', monospace;  text-align: center;
 
 .big{
       color:white;
-    border-radius: 5pt;
-    padding: 2pt;
+    border-radius: 20pt;
+    padding 1pt;
+  width:90%;
     background-color: #23272A;
 
    font-family: Monaco, monospace;
