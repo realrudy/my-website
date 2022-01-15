@@ -28,25 +28,13 @@ font-family: 'Source Code Pro', monospace;  text-align: center;
 
 
 
-code {
-    font-family: Monaco, monospace;
-    font-size: $base-font-size;
-    line-height: 100%;
-    background-color: #23272A;
-    padding: 0.3em;
-    letter-spacing: -0.05em;
-    word-break: normal;
+
+
+.big{
+      color:white;
     border-radius: 5pt;
-  }
+    padding: 2pt;
+    background-color: #23272A;
 
-
-
-pre code {
-    border: none;
-    background: none;
-    font-size: $base-font-size * 0.875;
-    line-height: 1em;
-  color:white;
-    letter-spacing: normal;
-    word-break: break-all;
-  }
+   font-family: Monaco, monospace;
+}
