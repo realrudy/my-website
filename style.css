@@ -47,12 +47,3 @@ pre {
 
   font-family: Monaco, monospace;
 }
-.section {
-  color: white;
-  border-radius: 2pt;
-  padding 1pt;
-  width: 73%;
-  background-color: #23272a;
-
-  font-family: Monaco, monospace;
-}
