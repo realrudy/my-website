@@ -47,3 +47,25 @@ pre {
 
   font-family: Monaco, monospace;
 }
+input{
+/*   padding:1pt; */
+    font-family: "Poppins", monospace;
+  background:#23272a;
+  padding: 10pt;
+  border:none;
+  cursor: pointer;
+  color:white;
+  font-size:16pt;
+  border-radius: 2pt;
+
+}
+.input:focus {
+    outline: none !important;
+    border:1px solid white;
+    box-shadow: 0 0 10px white;
+  }
+
+.hover{
+  background-color:white;
+  color:black;
+}
