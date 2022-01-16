@@ -1,21 +1,26 @@
 <html>
   <head>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <h1 class="big">
-  &lt;404&gt;
-    </h1>
-    <title>Rudy P 404</title>
-    <br>
-    <h2>
-You cant access that page!    </h2><br>
- 
-  
+    <h1 class="big">&lt;404&gt;</h1>
+    <title>Go</title>
+    <br />
+    <h2>A URL shortener made by Rudy!</h2>
+    <br />
+
+    <h1 class="message">Shorten your first link!</h1>
+    <div>
+      <input
+        name="text"
+        type="url"
+        value
+        id="linkinput"
+        placeholder="Paste a URL to shorten"
+      />
+      <input type="submit" id="myinput" value="Shorten" />
+    </div>
+    <p id="message"></p>
   </body>
-  <script>
-if (location.protocol != 'https:') {
- location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-}
-</script>
+  <script src="script.js"></script>
 </html>
